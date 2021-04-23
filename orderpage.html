@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Orderpage</title>
+	<link rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Dosis&family=Hind&display=swap" rel="stylesheet">
+	<style>
+body {
+    background-image: url('https://wallpapercave.com/wp/wp2036900.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.two{
+    width: 400px;
+    overflow: hidden;
+    margin: auto; 
+    padding: 10px; 
+    /*background: rgba(105,105,105,0.6) ;*/
+}
+h2{
+  color:rgba(0, 19, 128, 0.555); 
+  padding: 50px;
+  font-family: 'Dosis', sans-serif;
+}
+label{
+  font-size: 20px;
+  font-family: 'Hind', sans-serif;
+  color:rgba(2, 1, 19, 0.548);
+}
+#name{
+  width: 300px;  
+  height: 30px;
+  border: solid 2px;    
+  border-radius: 3px;  
+  padding-left: 8px;
+}
+#address{
+  width: 300px;  
+  height: 30px;
+  border: solid 2px;    
+  border-radius: 3px;  
+  padding-left: 8px;
+}
+#city{
+  width: 300px;  
+  height: 30px;
+  border: solid 2px;    
+  border-radius: 3px;  
+  padding-left: 8px;
+}
+#state{
+  width: 300px;  
+  height: 30px;
+  border: solid 2px;    
+  border-radius: 3px;  
+  padding-left: 8px;
+}
+#country{
+  width: 300px;  
+  height: 30px;
+  border: solid 2px;    
+  border-radius: 3px;  
+  padding-left: 8px;
+
+}
+#email{
+  width: 300px;  
+  height: 30px;
+  border: solid 2px;    
+  border-radius: 3px;  
+  padding-left: 8px;
+}
+#phonenumber{
+    width: 300px;  
+    height: 30px;
+    border: solid 2px;    
+    border-radius: 3px;  
+    padding-left: 8px;
+  
+  }
+</style> 
+</head>
+<body>
+<h2 align="center">Please fill the details to proceed with order</h2>
+<div class="two">
+<form action="payment.html" method="">
+  <div class="form-group">
+    <label for="firstname">Name</label>
+    <input type="text" class="form-control" id="name" name="name" placeholder="name" required="required">
+  </div>
+  <div class="form-group">
+    <label for="address">Address</label>
+    <input type="text" class="form-control" id="address" name="address" placeholder="address" required="required">
+  </div>
+  <div class="form-group">
+    <label for="city">City</label>
+    <input type="text" class="form-control" id="city" name="city" placeholder="city" required="required">
+  </div>
+  <div class="form-group">
+    <label for="state">State</label>
+    <input type="text" class="form-control" id="state" name="state" placeholder="state" required="required">
+  </div>
+  <div class="form-group">
+    <label for="country">Country</label>
+    <input type="text" class="form-control" id="country" name="country" placeholder="country" required="required">
+  </div>
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="email" required="required">
+  </div>
+  <div class="form-group">
+    <label for="phonenumber">Phone Number</label>
+    <input type="number" class="form-control" id="phonenumber" id="phonenumber" placeholder="phonenumber" required="required">
+  </div>
+  <br>
+  <button type="submit" class="btn btn-success">Submit</button>
+</form>
+</div>
+</body>
+</html>

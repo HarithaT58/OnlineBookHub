@@ -1,0 +1,54 @@
+.two{
+    width: 400px;
+    overflow: hidden;
+    margin: auto; 
+    padding: 50px; 
+    /*background: rgba(105,105,105,0.6) ;*/
+}
+h2{
+  color:rgba(128, 0, 0, 0.555); 
+  padding: 50px;
+  font-family: 'Dosis', sans-serif;
+}
+label{
+  font-size: 20px;
+  font-family: 'Hind', sans-serif;
+  color:rgba(117, 18, 18, 0.548);
+}
+#firstname{
+  width: 300px;  
+  height: 30px;
+  border: solid 2px;    
+  border-radius: 3px;  
+  padding-left: 8px;
+}
+#lastname{
+  width: 300px;  
+  height: 30px;
+  border: solid 2px;    
+  border-radius: 3px;  
+  padding-left: 8px;
+}
+#email{
+  width: 300px;  
+  height: 30px;
+  border: solid 2px;    
+  border-radius: 3px;  
+  padding-left: 8px;
+}
+#password{
+  width: 300px;  
+  height: 30px;
+  border: solid 2px;    
+  border-radius: 3px;  
+  padding-left: 8px;
+
+}
+#phonenumber{
+    width: 300px;  
+    height: 30px;
+    border: solid 2px;    
+    border-radius: 3px;  
+    padding-left: 8px;
+  
+}
